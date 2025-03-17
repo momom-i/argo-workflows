@@ -1,6 +1,7 @@
 module github.com/argoproj/argo-workflows/v3
 
 go 1.18
+toolchain go1.24.1
 
 require (
 	cloud.google.com/go/storage v1.43.0
@@ -31,7 +32,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/klauspost/pgzip v1.2.6
-	github.com/minio/minio-go/v7 v7.0.87
+	github.com/minio/minio-go/v7 v7.0.88
 	github.com/prometheus/client_golang v1.21.1
 	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.62.0
